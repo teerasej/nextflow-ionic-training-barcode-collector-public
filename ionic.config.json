@@ -1,5 +1,7 @@
 {
   "name": "nextflow-product-collector",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
