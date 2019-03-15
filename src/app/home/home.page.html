@@ -7,5 +7,9 @@
 </ion-header>
 
 <ion-content padding>
-  
+  <ion-button expand="block" (click)="startScan()">
+    Scan
+  </ion-button>
+  <h3>Text: {{ barcodeResult?.text }}</h3>
+  <h3>Format: {{ barcodeResult?.format }}</h3>
 </ion-content>
